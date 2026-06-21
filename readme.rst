@@ -1,6 +1,6 @@
 # 🏥 Sistem Pendaftaran Pasien Rumah Sakit
 
-Aplikasi berbasis web untuk pendaftaran pasien online menggunakan **Framework CodeIgniter 3**.
+> Aplikasi berbasis web untuk pendaftaran pasien online menggunakan **Framework CodeIgniter 3**.
 
 ---
 
@@ -12,13 +12,7 @@ Aplikasi berbasis web untuk pendaftaran pasien online menggunakan **Framework Co
 
 Project ini dibuat sebagai **tugas Ujian Akhir Semester** mata kuliah **Pemrograman Berbasis Web II**.
 
----
-
-## 🛠️ Teknologi yang Digunakan
-
-- **Framework:** CodeIgniter 3
-- **Database:** MySQL
-- **Konsep:** OOP (Object Oriented Programming) & MVC (Model-View-Controller)
+Dikembangkan dengan menerapkan konsep **OOP** (Object Oriented Programming) dan **MVC** (Model-View-Controller) menggunakan Framework CodeIgniter 3 dan database MySQL.
 
 ---
 
@@ -47,21 +41,42 @@ Project ini dibuat sebagai **tugas Ujian Akhir Semester** mata kuliah **Pemrogra
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🛠️ Teknologi yang Digunakan
+
+- Framework: CodeIgniter 3
+- Database: MySQL
+- Konsep: OOP & MVC
+
+---
+
+## 📝 Lisensi
+
+**MIT License** – Silakan digunakan untuk keperluan belajar dan pengembangan.
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi
 
 1. Clone repository ini
 2. Import database `rumah_sakit.sql` ke MySQL
-3. Sesuaikan konfigurasi database di `application/config/database.php`
-4. Jalankan dengan `php -S localhost:8080` atau menggunakan XAMPP
+3. Sesuaikan konfigurasi di `application/config/database.php`
+4. Jalankan server (XAMPP / `php -S localhost:8080`)
 
 ---
 
 ## 📸 Screenshot
 
-_(Tambahkan screenshot aplikasi di sini)_
+_(Tambahkan screenshot tampilan aplikasi di sini)_
 
 ---
 
-## 📝 Catatan
+## ✨ Fitur
 
-> Project ini dikembangkan untuk keperluan akademik.
+- [x] Pendaftaran pasien online
+- [x] Manajemen data pasien
+- [x] Manajemen jadwal dokter
+- [x] Login admin & pasien
+
+---
+
+> Dibuat untuk keperluan akademik Ujian Akhir Semester Genap 2025/2026
